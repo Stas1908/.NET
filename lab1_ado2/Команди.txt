@@ -1,0 +1,59 @@
+CREATE PROCEDURE GetAllCloth()
+AS
+BEGIN
+    SELECT * FROM dbo.Cloth;
+END
+
+EXEC GetAllCloth
+
+
+
+
+
+CREATE PROCEDURE GetAllCatalog()
+AS
+BEGIN
+    SELECT * FROM Catalogh;
+END
+
+EXEC GetAllCatalog
+
+
+
+
+
+CREATE PROCEDURE SelectAboveAveragePrice
+AS
+BEGIN
+    SELECT *
+    FROM Catalog
+    WHERE price > (SELECT AVG(price) FROM Catalog)
+END
+
+
+
+
+
+
+CREATE PROCEDURE UpdateCatalog
+	@id int,
+    @clothId INT,
+    @NewPrice DECIMAL(10, 2)
+AS
+BEGIN
+    UPDATE Catalog set cloth_id=@clothId,price=@NewPrice where id=@id
+END;
+
+EXEC UpdateCatalog @id = 3,@clothId=1, @NewPrice = 19.99;
+
+
+
+
+CREATE PROCEDURE DeleteCloth
+    @ClothID INT
+AS
+BEGIN
+    DELETE FROM Cloth
+    WHERE id = @ClothID;
+END;
+EXEC DeleteCloth @ClothID=@Id

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option csharp_namespace = "lab1_ado2.Protos";
+service CatalogProgram{
+	rpc getCatalog(CatalogLookupModel) returns (CatalogModel);
+	rpc getCloth(ClothLookupModel) returns (ClothModel);
+}
+message CatalogLookupModel{
+	int32 id=1;
+}
+message CatalogModel{
+	int32 id=1;
+	int32 clothId=2;
+	float price=3;
+}
+message ClothModel{
+	int32 id=1;
+    string name=2;
+    string size=3;
+	string type=4;
+}
+message ClothLookupModel{
+	int32 id=1;
+}
