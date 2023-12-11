@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "Aggregation.Protos";
+
+service OrderProgram{
+	rpc getOrder(OrderLookupModel) returns (OrderModel);
+	rpc getCustomer(CustomerLookupModel) returns (CustomerModel);
+}
+message OrderLookupModel{
+	int32 id=1;
+}
+message OrderModel{
+	int32 id=1;
+	string name=2; 
+    float countProduct=3;
+    float pricePerOne=4;
+    int32 customerId=5;
+}
+message CustomerModel{
+	int32 id=1;
+    string name=2;
+    string lastName=3;
+}
+message CustomerLookupModel{
+	int32 id=1;
+}
