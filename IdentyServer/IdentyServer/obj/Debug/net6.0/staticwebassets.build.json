@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FhzCcmGfyXfg2Xj0bAJ2K8KV9Vs6v/Vy6jnZTHKWaIE=",
+  "Source": "IdentyServer",
+  "BasePath": "_content/IdentyServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

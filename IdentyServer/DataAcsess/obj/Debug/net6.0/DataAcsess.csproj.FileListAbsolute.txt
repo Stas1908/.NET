@@ -1,0 +1,14 @@
+F:\NET\IdentyServer\DataAcsess\bin\Debug\net6.0\DataAcsess.deps.json
+F:\NET\IdentyServer\DataAcsess\bin\Debug\net6.0\DataAcsess.runtimeconfig.json
+F:\NET\IdentyServer\DataAcsess\bin\Debug\net6.0\DataAcsess.dll
+F:\NET\IdentyServer\DataAcsess\bin\Debug\net6.0\DataAcsess.pdb
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\DataAcsess.csproj.AssemblyReference.cache
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\DataAcsess.GeneratedMSBuildEditorConfig.editorconfig
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\DataAcsess.AssemblyInfoInputs.cache
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\DataAcsess.AssemblyInfo.cs
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\DataAcsess.csproj.CoreCompileInputs.cache
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\DataAcsess.dll
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\refint\DataAcsess.dll
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\DataAcsess.pdb
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\DataAcsess.genruntimeconfig.cache
+F:\NET\IdentyServer\DataAcsess\obj\Debug\net6.0\ref\DataAcsess.dll
